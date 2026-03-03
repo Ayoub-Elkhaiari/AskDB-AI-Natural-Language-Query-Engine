@@ -302,28 +302,6 @@ Add your app demo video here.
 ```md
 ## 🎥 Demo Video
 
-Watch the full demo here: [AskDB-AI Demo](PASTE_VIDEO_URL_HERE)
+Watch demo here: ![Image](https://github.com/user-attachments/assets/b5d0344f-3e73-4665-8135-06d3387fdd96)
 ```
 
-### Option B: Embed video thumbnail linking to video
-
-```md
-## 🎥 Demo Video
-
-[![Watch the demo](PASTE_THUMBNAIL_IMAGE_URL_HERE)](PASTE_VIDEO_URL_HERE)
-```
-
-### Option C: Local repository video file
-If you add a file like `docs/demo.mp4`, reference it:
-
-```md
-## 🎥 Demo Video
-
-[Download / Watch Demo](docs/demo.mp4)
-```
-
----
-
-## 📄 License
-
-Add your preferred license here (MIT/Apache-2.0/etc.).
