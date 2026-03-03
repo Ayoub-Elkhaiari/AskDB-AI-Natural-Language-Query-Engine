@@ -1,4 +1,5 @@
 # AskDB-AI: Natural Language Query Engine
+[![CI](https://github.com/Ayoub-Elkhaiari/AskDB-AI-Natural-Language-Query-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Ayoub-Elkhaiari/AskDB-AI-Natural-Language-Query-Engine/actions)
 
 AskDB-AI is a full-stack AI-powered query assistant that converts natural language questions into **read-only database queries (Security Service)** for:
 
