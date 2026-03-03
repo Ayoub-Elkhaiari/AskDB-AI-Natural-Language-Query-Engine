@@ -301,6 +301,7 @@ docker compose up --build
 - Keep `.env` private and excluded from source control in production.
 - Rotate OpenRouter keys if exposed.
 - This project enforces read-only query execution by design.
+- A simple CI pipeline has been implemented. In the future, when running in a production environment, real unit tests can be added to ensure greater security and reliability.
 
 ---
 
