@@ -114,8 +114,8 @@ OpenRouter API
 ### 2) Clone repository
 
 ```bash
-git clone <your-repo-url>
-cd NLQ_Prod
+git clone https://github.com/Ayoub-Elkhaiari/AskDB-AI-Natural-Language-Query-Engine.git
+cd AskDB-AI-Natural-Language-Query-Engine
 ```
 
 ### 3) Configure environment
@@ -214,6 +214,15 @@ Blocked keywords include:
 - `ALTER`
 - `TRUNCATE`
 
+```
+if not re.match(r"^\s*SELECT\b", query, re.IGNORECASE):
+            raise ValueError("Only SELECT queries are allowed for PostgreSQL.")
+```
+```
+ if not ('find(' in normalized or 'aggregate(' in normalized):
+            raise ValueError("Only find/aggregate read operations are allowed for MongoDB.")
+```
+
 Allowed:
 - PostgreSQL: `SELECT`
 - MongoDB: `find` / `aggregate`
@@ -295,13 +304,10 @@ docker compose up --build
 
 ## 🎥 Demo Video
 
-Add your app demo video here.
-
-### Option A: Link to hosted video (YouTube, Loom, Drive)
 
 ```md
 ## 🎥 Demo Video
 
-Watch demo here: ![Image](https://github.com/user-attachments/assets/b5d0344f-3e73-4665-8135-06d3387fdd96)
+Watch demo here: 
 ```
-
+![Image](https://github.com/user-attachments/assets/b5d0344f-3e73-4665-8135-06d3387fdd96)
