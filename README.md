@@ -50,7 +50,7 @@ It uses **OpenRouter LLMs** to generate queries from your prompt and current dat
 
 ### LLM Provider
 - OpenRouter
-- Model: `openai/gpt-oss-120b:free`
+- Models used: `openai/gpt-oss-120b:free`, `google/gemma-3-27b-it:free`, `meta-llama/llama-3-8b-instruct`
 
 ---
 
@@ -120,6 +120,7 @@ cd AskDB-AI-Natural-Language-Query-Engine
 
 ### 3) Configure environment
 Create/modify `.env` in project root:
+I already included a placeholder for the OpenRouter API key to illustrate the expected format in .env file. Replace the placeholder with your actual key when configuring the project.
 
 ```env
 DJANGO_SECRET_KEY=your-secret-key
