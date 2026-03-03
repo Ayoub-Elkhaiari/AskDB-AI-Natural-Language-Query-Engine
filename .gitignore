@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 node_modules/
-.env.local
+.env
 backend/app/db.sqlite3
 frontend/dist/
