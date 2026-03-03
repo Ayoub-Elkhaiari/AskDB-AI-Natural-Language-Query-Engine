@@ -306,8 +306,6 @@ docker compose up --build
 
 
 ```md
-## 🎥 Demo Video
-
 Watch demo here: 
 ```
 ![Image](https://github.com/user-attachments/assets/b5d0344f-3e73-4665-8135-06d3387fdd96)
