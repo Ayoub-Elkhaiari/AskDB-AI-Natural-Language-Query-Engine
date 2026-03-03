@@ -46,12 +46,12 @@ jobs:
 
       - name: Run Django checks
         run: |
-          cd backend
+          cd backend/app
           python manage.py check
 
       - name: Run tests
         run: |
-          cd backend
+          cd backend/app
           python manage.py test
 
   frontend:
