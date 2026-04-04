@@ -1,5 +1,17 @@
 # AskDB-AI: Natural Language Query Engine
 [![CI](https://github.com/Ayoub-Elkhaiari/AskDB-AI-Natural-Language-Query-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Ayoub-Elkhaiari/AskDB-AI-Natural-Language-Query-Engine/actions)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-REST%20Framework-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![React](https://img.shields.io/badge/React-Vite%20UI-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Monaco Editor](https://img.shields.io/badge/Monaco-Query%20Editor-0078D4?logo=visualstudiocode&logoColor=white)](https://microsoft.github.io/monaco-editor/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-7-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-LLM%20Gateway-FF6B6B?logoColor=white)](https://openrouter.ai/)
+[![Security](https://img.shields.io/badge/Security-Read%20Only%20Queries-green?logo=shield&logoColor=white)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
 
 AskDB-AI is a full-stack AI-powered query assistant that converts natural language questions into **read-only database queries (Security Service)** for:
 
